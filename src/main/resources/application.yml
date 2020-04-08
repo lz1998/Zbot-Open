@@ -1,0 +1,8 @@
+spring:
+  profiles: # 默认使用开发环境
+    active: dev
+  cq:
+    plugin-list: # 配置插件顺序
+      - xin.lz1998.zbot.plugin.prefix.PrefixPlugin # 处理指令前缀
+      - xin.lz1998.zbot.plugin.scramble.ScramblePlugin # 打乱
+

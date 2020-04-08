@@ -1,0 +1,7 @@
+# 开发环境
+
+server:
+  port: 8081
+
+zbot:
+  tnoodle: tnoodle.lz1998.xin # 打乱服务

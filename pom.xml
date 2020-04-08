@@ -19,9 +19,18 @@
     </properties>
 
     <dependencies>
+        <!--发送HTTP请求-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+
+        <!--机器人框架-->
+        <dependency>
+            <groupId>net.lz1998</groupId>
+            <artifactId>spring-cq</artifactId>
+            <version>4.14.1.1</version>
         </dependency>
 
         <dependency>
