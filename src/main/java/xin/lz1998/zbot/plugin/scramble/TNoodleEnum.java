@@ -18,7 +18,19 @@ public enum TNoodleEnum {
     PUZZLE_CLOCK("cl", "clock", "clock"),
     PUZZLE_MINX("mx", "minx", "minx"),
     PUZZLE_333FM("fm", "333fm", "333fm");
+
+    /**
+     * 指令
+     */
     private String instruction;
+
+    /**
+     * tnoodle调用时的参数
+     */
     private String shortName;
+
+    /**
+     * 回复消息显示内容
+     */
     private String showName;
 }
