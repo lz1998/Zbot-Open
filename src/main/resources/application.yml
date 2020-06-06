@@ -4,6 +4,7 @@ spring:
   cq:
     plugin-list: # 配置插件顺序
       - xin.lz1998.zbot.plugin.hello.HelloPlugin # 测试功能，私聊发送任意内容回复 "hello"
+      - xin.lz1998.zbot.plugin.repeat.RepeatPlugin
       - xin.lz1998.zbot.plugin.prefix.PrefixPlugin # 处理指令前缀
       - xin.lz1998.zbot.plugin.scramble.ScramblePlugin # 打乱
       - xin.lz1998.zbot.plugin.welcome.WelcomePlugin # 入群欢迎
